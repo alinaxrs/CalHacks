@@ -16,16 +16,22 @@
         <h5 id="instruction">select your preferences!</h5>
     </div>
 
+
+    <iframe name="dummyframe" id="dummyframe" style="display: none;"></iframe>
+
     <div id="all_inputs">
-        <form action="http://127.0.0.1:5500/search_page/index.html" method="GET">
+        <form action="http://localhost:8080" method="GET" target="dummyframe">
             <input class="input_box" type="text" name = "allergies" style="font-size: 20;" placeholder="allergies">
-            <input class="input_box" type="text" name = "prep time" style="font-size: 20;" placeholder="prep time">
-            <input class="input_box" type="text" name = "star ingredient" style="font-size: 20;" placeholder="star ingredient">
-            
+            <input class="input_box" type="text" name = "time" style="font-size: 20;" placeholder="prep time">
+            <input class="input_box" type="text" name = "ingredient" style="font-size: 20;" placeholder="star ingredient">
+            <button id = "find" type="submit">find!</button>
         </form>
     </div>
+    <ul id="mylist">
+        <h4>Recipes</h4>
+        <li>xyz</li>
+    </ul>
 
-    <button id = "find" type="submit">find!</button>
 
     <div>
         <!-- <table id = "results">
