@@ -15,19 +15,17 @@
 #right{
     display: block;
     margin-top: 200px;
-
-
 }
 
 #heading1{
     color: #D05438;
     text-align: center;
     font-size: 80px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: 100%; /* 120px */
     letter-spacing: -3.6px;
-    text-align: center;
     margin-bottom: 20px;
     display: block;
 }
@@ -42,6 +40,7 @@
 #missionpara{
     color: #8C3825;
     text-align: center;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
     font-size: 25px;
     font-style: normal;
     font-weight: 400;
@@ -60,6 +59,7 @@
     background: #8C3825;
     display: block;
     color: #FFF;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
     font-size: 25px;
     font-style: normal;
     font-weight: 400;

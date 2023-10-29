@@ -1,0 +1,46 @@
+body{
+    width: 100%;
+    height: 100%;
+}
+
+#header{
+    display: block;
+    text-align: center;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYPWW9zog62tzZXbg7M08lGPmysQ5_hsDk7NWAW-CAV4rLrF80yW2IAizjMv98T-5OWXk&usqp=CAU');
+    padding: 7px 0;
+}
+
+#heading-div{
+    display: block;
+    background-color: black;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+
+}
+
+#heading{
+    color: #D05438;
+   
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: -2px;
+    font-size: 80px;
+    
+}
+
+#textinstructions{
+    display: block;
+    margin-top: 40px;
+}
+
+#overview{
+    text-align: center;
+}
+
+#instruction{
+
+}
