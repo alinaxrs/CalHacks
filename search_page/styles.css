@@ -1,46 +1,76 @@
 body{
-    width: 100%;
+    width: 99%;
     height: 100%;
+    background-color: aliceblue;
 }
 
 #header{
     display: block;
     text-align: center;
     background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYPWW9zog62tzZXbg7M08lGPmysQ5_hsDk7NWAW-CAV4rLrF80yW2IAizjMv98T-5OWXk&usqp=CAU');
-    padding: 7px 0;
+    background-color: #dcefff;
+    background-blend-mode: multiply;
+    padding: 1px;
 }
 
 #heading-div{
     display: block;
-    background-color: black;
+    /*backdrop-filter: blur(7px);*/
+    background-color: aliceblue;
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
     border-radius: 10px;
-
 }
 
 #heading{
     color: #D05438;
-   
     font-family: 'Trebuchet MS', Arial, sans-serif;
     font-weight: 400;
     letter-spacing: -2px;
     font-size: 80px;
-    
 }
 
 #textinstructions{
     display: block;
-    margin-top: 40px;
+    color: #8c3825;
+    margin-top: 30px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
 }
 
 #overview{
     text-align: center;
+    font-size: 35px;
 }
 
 #instruction{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 18px;
+}
 
+#all_inputs{
+    display: flex;
+    justify-content: space-around;
+}
+
+.input_box{
+    margin: 0 15px;
+
+}
+
+#find{
+    border-radius: 20px;
+    background: #8C3825;
+    display: block;
+    color:aliceblue;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: #8C3825;
+    margin-top: 10px;
+    padding: 10px;
 }

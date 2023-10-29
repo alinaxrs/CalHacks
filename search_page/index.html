@@ -8,18 +8,35 @@
 <body>
     <div id="header">
         <div id="heading-div">
-            <h1 id="heading">Smart Plate</h1>
+            <h1 id="heading">smart plate</h1>
         </div> 
     </div>
-    <div id="textinstructions">
-        <h3 id="overview">We will give you a personalized healthy recipe, based on your selected preferences</h3>
-        <h5 id="instruction">Please fill in the following inputs</h5>
+    <div class = "focus", id="textinstructions">
+        <h3 id="overview">find a personalized recipe, based on your selected preferences</h3>
+        <h5 id="instruction">select your preferences!</h5>
     </div>
 
     <div id="all_inputs">
-        <input type="text" class="inputs" placeholder="Allergies">
-        <input type="text" class="inputs" placeholder="Cuisine">
-        <input type="text" class="inputs" placeholder="Star Ingredient">
+        <form action="http://127.0.0.1:5500/search_page/index.html" method="GET">
+            <input class="input_box" type="text" name = "allergies" style="font-size: 20;" placeholder="allergies">
+            <input class="input_box" type="text" name = "prep time" style="font-size: 20;" placeholder="prep time">
+            <input class="input_box" type="text" name = "star ingredient" style="font-size: 20;" placeholder="star ingredient">
+            
+        </form>
+    </div>
+
+    <button id = "find" type="submit">find!</button>
+
+    <div>
+        <!-- <table id = "results">
+        <span><label>name </label></span>
+        <span><label>minutes </label></span>
+        <span><label>n_steps </label></span>
+        <span><label>steps </label></span>
+        <span><label>description </label></span>
+        <span><label>ingredients </label></span>
+        <span><label>n_ingredients </label></span>
+        </table> -->
     </div>
 </body>
 </html>
