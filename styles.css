@@ -1,0 +1,70 @@
+#home{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+#left img{
+    display: block;
+    width: 600px;
+    height: 600px;
+    border-radius: 10px;
+    margin: 40px 40px;
+}
+
+#right{
+    display: block;
+    margin-top: 200px;
+
+
+}
+
+#heading1{
+    color: #D05438;
+    text-align: center;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 120px */
+    letter-spacing: -3.6px;
+    text-align: center;
+    margin-bottom: 20px;
+    display: block;
+}
+
+#mission{
+    display: block;
+    margin-left: 60px;
+    margin-right: 60px;
+
+}
+
+#missionpara{
+    color: #8C3825;
+    text-align: center;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: -0.75px;
+    display: block;
+
+    
+}
+
+#search{
+    width: 354px;
+    height: 71px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #8C3825;
+    display: block;
+    color: #FFF;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid;
+    border-width: 10px;
+}

@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Generator</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <div id="home">
+        <div id="left">
+            <img src="images/food.jpg" alt="food image">
+        </div>
+        <div id="right">
+            <h1 id="heading1">Smart Plate</h1>
+            <div id="mission">
+                <p id="missionpara">Your guide to choosing recipes, tailored to you.</p>
+            </div>
+            <button id="search">Start your search!</button>
+            <script>
+                function redirectToNewPage() {
+                    var newPageUrl = "search_page/index.html"
+                    window.location.href = newPageUrl;
+                }
+                var button = document.getElementById('search');
+                button.onclick = redirectToNewPage;
+            </script>
+            
+        </div>
+    </div>
+</body>
+</html>
